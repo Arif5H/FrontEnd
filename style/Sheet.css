@@ -1,0 +1,18 @@
+
+h1 {
+    color: aqua;
+    background-color: brown;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: red;
+    font-size: 12px;
+    background-color: rgb(154, 236, 30);
+    /* background: hotpink; */
+    
+
+}
+body{
+    background: hotpink;
+}
