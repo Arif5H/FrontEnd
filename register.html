@@ -1,0 +1,103 @@
+<html lang="en">
+    <head>
+
+    </head>
+
+    <body>
+    <form action="./register.html" >
+        <div>
+            <label for="name" > Name</label> 
+            <input required type="text" name="name" maxlength="100">
+        </div>
+        
+        <div>
+            <label for="surname" >Surname</label> <br>
+            <input required type="text" name="surname" maxlength="100">
+        </div>
+        <div>
+        <div>
+            <label for="user_mame">User_name</label> 
+            <input required type="text" name="user_name" maxlength="100">
+        </div>
+            <label for="password">Password</label> 
+            <input required type="password" name="password" maxlength="100">
+        </div>
+        <div>
+            <label for="email">Email_address</label> 
+            <input required type="email" name="email" maxlength="100">
+        </div>
+        <div>
+            <label for="age">Age</label> 
+            <input type="age" name="age" maxlength="3" max="150">
+        </div>
+        <div>
+            <label for="Birthday_date">Birthday</label> 
+            <input required type="date" name="Birtday_date" min="1900-01-01" value="2020-01-01" max="2022-12-31">
+        </div>
+        <div>
+            <label for="Contact_number">Contact_number</label> 
+            <input required type="number"  name="Contact_number" maxlength="100">
+        </div>
+
+        <div>
+            
+            <p>Gender</p>         
+            <label for="Male">Male</label>
+            <input type="checkbox" name="Male" maxlength="100">
+            <label for="Female">Female</label>
+            <input type="checkbox" name="Female" maxlength="100">
+        </div>
+        <div>
+            <p>Please write about your previous experience</p>
+            <textarea name="text" id="experience" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="button"> Button</button>
+        <button type="reset">Reset contact</button>
+        <button type="submit">Submit</button>
+            
+    </form>
+        <style>
+            body{
+               background-color:rgb(0, 146, 204); 
+               justify-content: center;
+               align-items: flex-start;
+               display: flex;
+               padding-top: 50px;
+            }
+            form{
+                width: 400px;
+                min-height: 300px;
+                background-color: white;              
+                padding: 50px; 
+                row-gap: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                align-items: flex-start;
+                border-radius: 15px;    
+                            
+            }
+            input{
+                width: 250px;
+                height: 25px;
+                border-radius: 15px;
+                border: 1 solid black;            
+                padding-left: 15px;
+                display: flex;
+                
+            }
+            label{
+                padding: 15px;
+                    width: 100%;
+                    font-family: 'Times New Roman', Times, serif;
+                    text-align: center;
+            }
+                
+        </style>
+    </body>
+
+
+
+
+</html>
