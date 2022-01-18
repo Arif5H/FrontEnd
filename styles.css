@@ -1,0 +1,72 @@
+header{
+   background-color: black;
+    height: 16.66%;
+    background-position: top;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color:white;
+    font-style: italic;
+    padding: 200px;
+    
+}
+.aside-left{
+    background-color: grey;
+    float: left;
+    width: 16.66%;
+    height: 100%;
+    margin-top: auto;
+}
+.aside-right{
+background-color: royalblue;
+float: right;
+    width: 16.66%;
+    height: 100%;
+    margin-top: auto;
+}
+main{
+    background-color: seagreen;
+    margin: auto;
+    height: 91.66%;
+    width:66.66%;
+  
+}
+.bottom{
+    background-color: black;
+    width: 66.66%;
+    background-position:center;
+    height: 8.33%;
+    margin: auto;
+   
+    
+} 
+div{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+}
+.col1{
+background-color: greenyellow;
+
+}
+.col2{
+    background-color: royalblue;
+    
+
+}
+.col3{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.col4{
+    background-color: red;
+    width: 100%;
+    height: 25%;
+    background-position: bottom;
+    
+}
+
