@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+}
+#square{
+    background-color: #00ffaa;
+    height: 300px;
+    width: 25%;
+    margin: 50px auto;
+}
+
+.button{
+    text-align: center;
+   
+    
+    
+}
+.button button{
+    
+  
+    cursor: pointer;
+   
+}
+
