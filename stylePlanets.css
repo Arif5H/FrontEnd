@@ -1,0 +1,101 @@
+.pluto{
+
+    width: 45px;
+    height: 45px; 
+    top: -30px;
+    background-color: #b97c53;
+
+    position: absolute;
+}
+
+.neptun{
+    width: 70px;
+    height: 70px;
+    top: -40px;  
+    background-color: navy;
+
+    position: absolute;
+   
+}
+
+.urane{
+    width: 70px;
+    height: 70px; 
+    top: -50px;
+    background-color: lightseagreen;
+
+    position: absolute;
+   
+}
+
+.saturn{
+    width: 80px;
+    height: 80px;  
+    top: -50px;
+    background-color: saddlebrown;
+    
+    position: absolute;
+   
+}
+
+.jupiter{
+    width: 100px;
+    height: 100px;  
+    top: -60px;
+    background-color: sandybrown;
+    
+    position: absolute;
+   
+}
+
+.mars{
+    width: 45px;
+    height: 45px;   
+    top: -30px;
+    background-color: red;
+
+    position: absolute;
+   
+}
+
+.earth{
+    width: 50px;
+    height: 50px; 
+    top: -30px;
+    background-color: green;
+
+    position: absolute;
+   
+}
+
+.veenus{
+    width: 50px;
+    height: 50px; 
+    top: -30px;
+    background-color: orangered;
+
+    position: absolute;
+}
+
+.mercury{
+    width: 40px;
+    height: 40px;   
+    top: -25px;
+    background-color: yellow;
+
+    position: absolute;
+    
+}
+
+.planet{
+    border-radius: 100%;
+}
+
+.sun{
+    background-image: url("https://i.gifer.com/origin/be/be221de0f425f26da6427cf8463dde34.gif"); 
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    
+
+}

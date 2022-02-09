@@ -1,0 +1,67 @@
+body{
+    margin: 300px;
+    padding: 0px;
+    align-content: center;
+    background-color: red;
+    width: 2000px;
+    height: 2000px;
+    background-image: url(./Assets/Images/gifki-kosmos-9.gif);
+}
+
+.animation{
+    position:absolute;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    z-index: 0.5;
+    border: 5px solid darkblue;  
+    border-radius: 100%;
+}
+
+.a1{
+    width: 1700px;
+    height: 1700px;
+}
+
+.a2{
+
+    width: 1550px;
+    height: 1550px;
+}
+
+.a3{
+    width: 1400px;
+    height: 1400px;
+}
+
+.a4{
+    width: 1250px;
+    height: 1250px;
+}
+.a5{
+    width: 1000px;
+    height: 1000px;
+}
+
+.a6{
+    width: 750px;
+    height: 750px;
+}
+
+.a7{
+    width: 650px;
+    height: 650px;
+}
+
+.a8{
+    width: 550px;
+    height: 550px;
+}
+
+.a9{
+    width: 400px;
+    height: 400px;
+}
+
+
+
