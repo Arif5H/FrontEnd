@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    background-image: linear-gradient(white 15%, blue,purple );
+    height: 400px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    position: relative;
+}
+.hour, .min, .sec{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 40%;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+}
+/* .min{
+    transform: rotate(-10deg);
+} */
+.sec{
+    background-color: red;
+}
+.number{
+    --rotation:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 24px;
+}
+
+.number1{--rotation:30deg}
+.number2{--rotation:60deg}
+.number3{--rotation:90deg}
+.number4{--rotation:120deg}
+.number5{--rotation:150deg}
+.number6{--rotation:180deg}
+.number7{--rotation:210deg}
+.number8{--rotation:240deg}
+.number9{--rotation:270deg}
+.number10{--rotation:300deg}
+.number11{--rotation:330deg}
+.number12{--rotation:360deg}
+
