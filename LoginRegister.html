@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Register</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+        <form action="" id="registration-form" onsubmit="submitForm(event)">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username-input" placeholder="Enter Username">
+                <span id="username-error" class="error"></span>
+            </div>
+       
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password-input" placeholder="Enter Password">
+                <span id="password-error" class="error"></span>
+            </div>
+        
+            <div class="form-group">
+                <label for="repeatpassword" id="repeatpassword-label">Repeat Password:</label>
+                <input type="password" name="repeatpassword" id="repeatpassword-input" placeholder="Repeat Password">
+                <span id="repeatpassword-error" class="error"></span>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>
